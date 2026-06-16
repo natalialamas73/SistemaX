@@ -1,4 +1,3 @@
-# antes/db_connection.py
 import sqlite3
 
 # Credenciais hardcoded expostas no código
@@ -28,5 +27,4 @@ def buscar_produto(termo_busca):
     finally:
         conn.close()
 
-# Teste simulado
 print(buscar_produto("celular"))
